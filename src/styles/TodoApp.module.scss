@@ -1,0 +1,98 @@
+/* Add your Todo App specific styles here */
+
+.todoForm {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todoInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .todoButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todoButton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .todoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todoItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todoTitle {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .todoCheckbox {
+    margin-right: 10px;
+  }
+  
+  .editTodo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .editInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .editButton {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .editButton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .deleteButton {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
